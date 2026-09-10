@@ -1,0 +1,230 @@
+@page {
+  size: letter;
+  margin: 0.5in 0.6in;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: 0.5in 0.6in;
+  background: #fff;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* Header */
+.header { text-align: center; margin-bottom: 14px; }
+.header h1 {
+  font-size: 22pt;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #1a1a1a;
+  margin-bottom: 2px;
+}
+.header .subtitle {
+  font-size: 11.5pt;
+  font-weight: 600;
+  color: #2563EB;
+  margin-bottom: 4px;
+}
+.header .contact {
+  font-size: 9.5pt;
+  color: #555;
+}
+.header .contact a { color: #2563EB; text-decoration: none; }
+.header .contact .sep { margin: 0 6px; color: #bbb; }
+
+/* Section */
+.section { margin-bottom: 14px; }
+.section-title {
+  font-size: 11pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #1a1a1a;
+  border-bottom: 1.5px solid #2563EB;
+  padding-bottom: 2px;
+  margin-bottom: 8px;
+}
+
+/* Summary */
+.summary {
+  font-size: 10.5pt;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px 24px;
+}
+.skill-row {
+  display: flex;
+  font-size: 10pt;
+  line-height: 1.5;
+}
+.skill-label {
+  font-weight: 700;
+  min-width: 160px;
+  color: #333;
+}
+.skill-value { color: #444; }
+
+/* Competencies */
+.competencies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 2px;
+}
+.competency-tag {
+  font-size: 9pt;
+  padding: 2px 9px;
+  background: #EFF6FF;
+  color: #2563EB;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* Experience */
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1px;
+}
+.exp-title {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+.exp-dates {
+  font-size: 9.5pt;
+  color: #666;
+  font-style: italic;
+  white-space: nowrap;
+}
+.exp-company {
+  font-size: 10pt;
+  color: #2563EB;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.exp-location {
+  color: #666;
+  font-weight: 400;
+}
+
+/* Employer block spacing — clear separation between companies */
+.employer-block {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid #E5E7EB;
+}
+
+/* Client block — separates clients within the same employer */
+.client-block {
+  margin-top: 14px;
+  padding-top: 8px;
+  border-top: 1px dashed #D1D5DB;
+}
+
+/* Client / Project titles */
+.project-title {
+  font-size: 10pt;
+  font-weight: 700;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+/* Sub-section header (e.g. "Key Responsibilities & Initiatives") */
+.sub-section-title {
+  font-size: 10pt;
+  font-weight: 700;
+  color: #2563EB;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #DBEAFE;
+  padding-bottom: 2px;
+}
+
+/* Sub-project title (e.g. Connect PaySDK under Fiserv) */
+.sub-project-title {
+  font-size: 9.5pt;
+  font-weight: 700;
+  color: #444;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  padding-left: 6px;
+}
+
+.project-context {
+  font-size: 9.5pt;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  font-size: 10pt;
+  line-height: 1.45;
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: 1px;
+  color: #333;
+}
+ul li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #2563EB;
+  font-weight: 700;
+}
+
+/* Education & Certs */
+.edu-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 2px;
+}
+.edu-row + .edu-row {
+  margin-top: 3px;
+}
+.edu-degree { font-weight: 700; font-size: 10pt; }
+.edu-school { font-size: 9.5pt; color: #555; }
+.edu-year { font-size: 9.5pt; color: #666; font-style: italic; }
+
+.cert-item { font-size: 10pt; margin-bottom: 1px; color: #333; }
+.cert-item strong { color: #1a1a1a; }
+
+.awards {
+  margin-top: 4px;
+  font-size: 9.5pt;
+  color: #555;
+}
+.awards strong { color: #333; }
+
+/* Page break control */
+.page-break { page-break-before: always; }
+.no-break { page-break-inside: avoid; }
+
+/* Print */
+@media print {
+  body { padding: 0; }
+  .section { break-inside: avoid; }
+  .page-break + * { margin-top: 0 !important; padding-top: 0 !important; border-top: none !important; }
+}
