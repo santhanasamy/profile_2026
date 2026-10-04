@@ -208,6 +208,16 @@ ul li::before {
 .edu-school { font-size: 9.5pt; color: #555; }
 .edu-year { font-size: 9.5pt; color: #666; font-style: italic; }
 
+.cert-group-title {
+  font-size: 9.5pt;
+  font-weight: 700;
+  color: #2563EB;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+.cert-group-title:first-of-type {
+  margin-top: 0;
+}
 .cert-item { font-size: 10pt; margin-bottom: 1px; color: #333; }
 .cert-item strong { color: #1a1a1a; }
 
