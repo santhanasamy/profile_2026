@@ -5,7 +5,7 @@ title: Santhanasamy Arockiyasamy
 
 ## Professional Summary
 
-Staff mobile engineer with 14+ years building Android applications at scale for fintech, healthcare, and consumer domains. Led engineering teams delivering apps with 10M–100M+ downloads across Capital One (50M+), Samsung (100M+), and Walgreens (10M+). Deep expertise in Kotlin/Compose, multi-module architecture, on-device AI/ML, and mobile security compliance (PCI-DSS, HIPAA, SOC 2). Designed and shipped Fiserv Connect Pay SDK — a white-label payment SDK adopted by major financial institutions with PCI-DSS Level 2 compliance. Actively building with Gen-AI and agentic systems — designing multi-agent orchestration patterns, MCP server integrations, and AI-augmented engineering workflows. Track record of reducing crash rates by 85%, cutting app launch times by 44%, and shipping SDKs adopted by major financial institutions.
+Staff mobile engineer with 14+ years building Android applications at scale for fintech, healthcare, and consumer domains. Led engineering teams delivering apps with 10M–100M+ downloads across Capital One (50M+), Samsung (100M+), and Walgreens (10M+). Deep expertise in Kotlin/Compose, multi-module architecture, on-device AI/ML, and mobile security compliance (PCI-DSS, HIPAA, SOC 2). Designed and shipped Fiserv Connect Pay SDK — a white-label payment SDK adopted by major financial institutions with PCI-DSS Level 2 compliance. Anthropic Claude Certified Architect (Professional) — actively building with Gen-AI and agentic systems, designing multi-agent orchestration patterns, MCP server integrations, and AI-augmented engineering workflows. Track record of reducing crash rates by 85%, cutting app launch times by 44%, and shipping SDKs adopted by major financial institutions.
 
 ---
 
@@ -220,11 +220,22 @@ Staff mobile engineer with 14+ years building Android applications at scale for 
 
 ## Certifications
 
-- **Claude Certified Architect – Foundations (CCA-F)** — Anthropic • 2026 (In Progress)
-- **Claude Code in Action** — Anthropic • 2026
-- **Introduction to Subagents** — Anthropic • 2026
-- **Introduction to Model Context Protocol (MCP)** — Anthropic / LinkedIn Learning • 2026
-- **Claude 101** — Anthropic • 2026
+**Anthropic Claude Certified**
+
+- **Claude Certified Architect – Professional (CCAR-P)** — Anthropic • 2026
+- **Claude Certified Architect – Foundations (CCAR-F)** — Anthropic • 2026
+- **Claude Certified Developer – Foundations (CCDV-F)** — Anthropic • 2026
+- **Claude Certified Associate – Foundations (CCAO-F)** — Anthropic • 2026
+
+**Anthropic Courses Completed**
+
+- Claude Code in Action — Anthropic • 2026
+- Introduction to Subagents — Anthropic • 2026
+- Introduction to Model Context Protocol (MCP) — Anthropic / LinkedIn Learning • 2026
+- Claude 101 — Anthropic • 2026
+
+**Industry Certifications**
+
 - **Certified SAFe® Agilist (SA)** — Scaled Agile, Inc • 2026
 - **Kotlin Android SDK – Certified Security** — Secure Code Warrior • 2021
 - **Functional Programming Principles in Scala** — EPFL • 2017
