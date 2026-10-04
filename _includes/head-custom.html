@@ -29,85 +29,72 @@
 
 /* ===== PRINT STYLES ===== */
 @media print {
-  /* --- Reset theme backgrounds & colors --- */
+  @page {
+    margin: 0.5in 0.6in;
+    size: letter;
+  }
+
+  /* --- Global reset: strip ALL theme visuals --- */
   * {
     color: #000 !important;
-    background: #fff !important;
+    background: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
+    border-color: transparent !important;
   }
 
   html, body {
     margin: 0 !important;
     padding: 0 !important;
     font-size: 11pt !important;
+    font-family: 'Calibri', 'Segoe UI', Arial, sans-serif !important;
     line-height: 1.4 !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+    background-color: #fff !important;
   }
 
-  /* --- Page margins for PDF --- */
-  @page {
-    margin: 0.5in 0.6in;
-    size: letter;
-  }
-
-  /* --- Strip theme wrapper padding/margins --- */
-  .outer {
+  /* --- Nuke all Slate wrapper spacing ---
+       .outer and .inner are the main culprits for gaps.
+       Slate sets .inner { padding: 20px 10px }
+       and #header_wrap .inner { padding: 50px 10px 30px }
+       and #main_content { padding-top: 40px }
+  */
+  .outer,
+  .inner,
+  #header_wrap,
+  #header_wrap .inner,
+  #header_wrap > header,
+  #main_content_wrap,
+  #main_content_wrap .inner,
+  #main_content {
     margin: 0 !important;
     padding: 0 !important;
     min-height: 0 !important;
     height: auto !important;
-    background: none !important;
-    background-image: none !important;
-    border: none !important;
-  }
-  .inner {
-    margin: 0 !important;
-    padding: 0 !important;
     max-width: 100% !important;
     width: 100% !important;
-    min-height: 0 !important;
-    height: auto !important;
-  }
-  #main_content_wrap {
-    padding: 0 !important;
-    margin: 0 !important;
-    min-height: 0 !important;
-    background: none !important;
-    background-image: none !important;
     border: none !important;
-  }
-  #main_content {
-    max-width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
+    background: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    display: block !important;
+    position: static !important;
+    float: none !important;
   }
 
-  /* --- Header: compact, professional --- */
+  /* --- Header: compact professional block --- */
   #header_wrap {
-    background: none !important;
-    border: none !important;
     border-bottom: 2px solid #333 !important;
-    padding: 0 0 6px 0 !important;
-    margin: 0 0 8px 0 !important;
-    min-height: 0 !important;
-    height: auto !important;
-    display: block !important;
-  }
-  #header_wrap > header,
-  #header_wrap > .inner,
-  #header_wrap .inner {
-    padding: 0 !important;
-    margin: 0 !important;
-    min-height: 0 !important;
-    height: auto !important;
+    padding-bottom: 6px !important;
+    margin-bottom: 10px !important;
   }
   #project_title {
     font-size: 20pt !important;
     margin: 0 0 2px 0 !important;
     padding: 0 !important;
     letter-spacing: 0.5px;
+    color: #000 !important;
   }
   #project_tagline {
     font-size: 10pt !important;
@@ -131,28 +118,27 @@
     display: none !important;
   }
 
-  /* --- Headings: tighten spacing --- */
+  /* --- Headings: override Slate's h2 bg image and padding --- */
   h2 {
     font-size: 13pt !important;
     margin: 12px 0 4px 0 !important;
     padding: 0 0 2px 0 !important;
     border-bottom: 1px solid #999 !important;
-    page-break-after: avoid !important;
+    background: none !important;
+    background-image: none !important;
   }
   h3 {
     font-size: 11.5pt !important;
     margin: 8px 0 3px 0 !important;
     padding: 0 !important;
-    page-break-after: avoid !important;
   }
   h4 {
     font-size: 10.5pt !important;
     margin: 6px 0 2px 0 !important;
     padding: 0 !important;
-    page-break-after: avoid !important;
   }
 
-  /* --- Paragraphs: tight --- */
+  /* --- Paragraphs: override Slate's p { margin: 10px 0 15px 0 } --- */
   p {
     margin: 3px 0 !important;
     padding: 0 !important;
@@ -161,7 +147,7 @@
     widows: 3;
   }
 
-  /* --- Lists: compact, no extra space --- */
+  /* --- Lists: compact --- */
   ul, ol {
     margin: 2px 0 4px 18px !important;
     padding: 0 !important;
@@ -173,28 +159,32 @@
     line-height: 1.35 !important;
   }
 
-  /* --- Horizontal rules: subtle, tight --- */
+  /* --- Horizontal rules --- */
   hr {
     border: none !important;
     border-top: 1px solid #ccc !important;
     margin: 6px 0 !important;
     padding: 0 !important;
+    height: 0 !important;
+    background: none !important;
+    background-image: none !important;
   }
 
-  /* --- Tables: clean, no extra padding --- */
+  /* --- Tables --- */
   table {
     width: 100% !important;
     border-collapse: collapse !important;
     margin: 4px 0 6px 0 !important;
-    page-break-inside: avoid !important;
     font-size: 9.5pt !important;
+    border: none !important;
   }
   th {
-    background: #f0f0f0 !important;
+    background-color: #f0f0f0 !important;
     font-weight: 700 !important;
     text-align: left !important;
     padding: 3px 8px !important;
     border: 1px solid #ccc !important;
+    color: #000 !important;
   }
   td {
     padding: 3px 8px !important;
@@ -202,20 +192,18 @@
     vertical-align: top !important;
   }
 
-  /* --- Chips: print-friendly --- */
+  /* --- Chips: bordered outlines --- */
   .chip {
     background: none !important;
     color: #000 !important;
-    border: 1px solid #888;
+    border: 1px solid #888 !important;
     padding: 1px 8px !important;
     margin: 1px 2px !important;
     font-size: 8.5pt !important;
     border-radius: 10px;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
   }
 
-  /* --- Links: no underline, no URL expansion --- */
+  /* --- Links: clean, no URL printing --- */
   a {
     color: #000 !important;
     text-decoration: none !important;
@@ -224,43 +212,56 @@
     content: none !important;
   }
 
-  /* --- Page break controls --- */
-  h2, h3, h4 {
-    page-break-after: avoid !important;
-  }
-  h2 + *, h3 + *, h4 + * {
-    page-break-before: avoid !important;
-  }
-  ul, ol, table, blockquote {
-    page-break-inside: avoid !important;
-  }
-  .experience-block, section {
-    page-break-inside: avoid !important;
-  }
-
-  /* --- Prevent orphaned headings at page bottom --- */
-  h3 + h4,
-  h3 + p,
-  h3 + ul,
-  h4 + p,
-  h4 + ul {
-    page-break-before: avoid !important;
-  }
-
-  /* --- Certifications sub-headers: bold but compact --- */
-  #main_content > strong,
-  #main_content p > strong:only-child {
+  /* --- Bold sub-headings (like "Engineering Leadership & Mentorship") ---
+       In markdown these render as <p><strong>text</strong></p>.
+       Must stay with the content that follows them.
+  */
+  p > strong:only-child {
     display: block;
     margin: 6px 0 2px 0;
     font-size: 10pt !important;
   }
 
-  /* --- Italic role descriptions: tighter --- */
+  /* --- PAGE BREAK CONTROLS ---
+       Key rules:
+       1. Headings and bold sub-headings must NOT be orphaned at page bottom
+       2. Tables should stay together
+       3. Do NOT use page-break-inside:avoid on <section> — it wraps all
+          content and forces everything to page 2
+  */
+  h2, h3, h4 {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  h2 + *, h3 + *, h4 + * {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+
+  /* Bold paragraphs acting as sub-section titles */
+  p:has(> strong:only-child) {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  p:has(> strong:only-child) + ul,
+  p:has(> strong:only-child) + ol,
+  p:has(> strong:only-child) + p {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+
+  /* Tables stay together */
+  table {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Italic role/context lines stay with their heading */
   em {
     font-size: 9.5pt !important;
   }
 
-  /* --- Float dates stay right-aligned --- */
+  /* Float dates stay right-aligned */
   span[style*="float:right"] {
     font-size: 9pt !important;
   }
