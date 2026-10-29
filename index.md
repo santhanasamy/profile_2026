@@ -5,24 +5,34 @@ title: Santhanasamy Arockiyasamy
 
 ## Professional Summary
 
-Staff mobile engineer with 14+ years building Android applications at scale for fintech, healthcare, and consumer domains. Led engineering teams delivering apps with 10M–100M+ downloads across Capital One (50M+), Samsung (100M+), and Walgreens (10M+). Deep expertise in Kotlin/Compose, multi-module architecture, on-device AI/ML, and mobile security compliance (PCI-DSS, HIPAA, SOC 2). Designed and shipped Fiserv Connect Pay SDK — a white-label payment SDK adopted by major financial institutions with PCI-DSS Level 2 compliance. Anthropic Certified AI-Architect — actively building with Gen-AI and agentic systems, designing multi-agent orchestration patterns, MCP server integrations, and AI-augmented engineering workflows. Track record of reducing crash rates by 85%, cutting app launch times by 44%, and shipping SDKs adopted by major financial institutions.
+Staff mobile engineer with 14+ years building Android applications at scale for fintech, healthcare, and consumer domains. Led engineering teams delivering apps with 10M-100M+ downloads across Capital One (50M+), Samsung (100M+), and Walgreens (10M+). Deep expertise in Kotlin/Compose, multi-module architecture, on-device AI/ML, and mobile security compliance (PCI-DSS, HIPAA, SOC 2). Designed and shipped Fiserv Connect Pay SDK — a white-label payment SDK adopted by major financial institutions with PCI-DSS Level 2 compliance. Anthropic Certified AI-Architect — actively building with Gen-AI and agentic systems, designing multi-agent orchestration patterns, MCP server integrations, and AI-augmented engineering workflows. Track record of reducing crash rates by 85%, cutting app launch times by 44%, and shipping SDKs adopted by major financial institutions.
 
 ---
 
 ## Core Competencies
 
-<span class="chip">Mobile System Design</span>
+<span class="chip">MCP Server Development (FastMCP)</span>
+<span class="chip">Multi-Agent Orchestration</span>
+<span class="chip">Claude Agent SDK & API</span>
+<span class="chip">Human-in-the-Loop Orchestration</span>
+<span class="chip">Agent Evaluation & Observability</span>
+<span class="chip">Tool-Augmented AI Systems</span>
+<span class="chip">CrewAI</span>
+<span class="chip">LangChain, LangGraph, LangSmith</span>
+<span class="chip">Guardrails & AI Safety</span>
+<span class="chip">Prompt Engineering & Evaluation</span>
+<span class="chip">On-Device AI/ML</span>
+
 <span class="chip">Kotlin / Jetpack Compose</span>
 <span class="chip">KMP & Coroutines</span>
-<span class="chip">iOS / Swift</span>
+<span class="chip">Mobile System Design</span>
 <span class="chip">Multi-Module Architecture</span>
-<span class="chip">On-Device AI/ML</span>
-<span class="chip">Agentic AI & LLM Integration</span>
 <span class="chip">Server-Driven UI (SDUI)</span>
+<span class="chip">iOS / Swift</span>
 <span class="chip">Payment SDK Engineering</span>
 <span class="chip">Performance Optimization</span>
 <span class="chip">Mobile Security & Compliance</span>
-<span class="chip">Claude API & MCP</span>
+
 <span class="chip">New Relic & Observability</span>
 <span class="chip">CI/CD & DevOps</span>
 
@@ -32,15 +42,16 @@ Staff mobile engineer with 14+ years building Android applications at scale for 
 
 | Domain | Technologies |
 |---|---|
-| **Languages** | Kotlin (Expert), Java, Dart, TypeScript |
+| **Languages** | Kotlin (Expert), Java, Dart, TypeScript, Python |
 | **Android** | Jetpack Compose, Coroutines/Flow, KMP, Hilt, Room, Navigation |
 | **Architecture** | MVVM, MVI, Clean Architecture, Multi-Module, Modularization |
-| **AI/ML** | TensorFlow Lite, ML Kit, ONNX, Gemini Nano, LLM Integration, RAG |
-| **Gen-AI & Agents** | Claude API, MCP (Model Context Protocol), Multi-Agent Orchestration, Prompt Engineering, Agentic Workflows |
+| **Gen-AI & Agents** | Claude Agent SDK, Claude API, MCP (FastMCP), Multi-Agent Orchestration, Human-in-the-Loop Patterns, CrewAI, Guardrails AI, Agent Evaluation, RAG, Vercel AI SDK |
+| **On-Device AI/ML** | TensorFlow Lite, ML Kit, ONNX, Gemini Nano, LLM Integration |
 | **Backend / APIs** | REST, GraphQL, gRPC, Firebase, AWS, Azure |
 | **CI/CD & Quality** | GitHub Actions, Jenkins, Fastlane, Gradle (KTS/Catalogs) |
-| **Testing** | JUnit, Mockk, Espresso, Compose Testing, Turbine |
-| **Observability** | New Relic, Crashlytics, Sentry, Firebase Analytics, Mixpanel |
+| **Testing** | JUnit, Mockk, Espresso, Compose Testing |
+| **Observability** | New Relic, Crashlytics, Sentry, Firebase Analytics |
+| **Streaming** | Kafka, Event-Driven Architecture |
 | **Security** | PCI-DSS, SOC 2, HIPAA, OWASP Mobile Top 10, OAuth 2.0/OIDC |
 | **Security Testing** | MAST, SAST (Fortify), DAST, Penetration Testing, SCA |
 | **Accessibility** | Level Access, WCAG 2.1 Compliance, Accessibility Auditing |
@@ -97,7 +108,7 @@ Staff mobile engineer with 14+ years building Android applications at scale for 
 - Architected plugin-based SDK enabling client customization without source modification; reduced integration time from 6 weeks to 2 weeks
 - Implemented end-to-end encryption and tokenization achieving PCI-DSS Level 2 compliance
 - Built receipt scanning and expense categorization using custom on-device ML models
-- Developed fraud detection algorithms achieving <5% false positive rate
+- Developed fraud detection algorithms achieving less than 5% false positive rate
 - Implemented Server-Driven UI (SDUI) architecture rendering screen layouts and content from backend API responses, enabling dynamic feature updates without app releases
 - Integrated conversational AI assistant for banking queries using LLM APIs
 
@@ -185,7 +196,7 @@ Staff mobile engineer with 14+ years building Android applications at scale for 
 
 **Samsung Core Apps & Innovation**
 
-- Reduced launch times by 20–35% across Contacts, Calendar, Phone, and Notes; cut OOM crashes by 50% via memory optimization
+- Reduced launch times by 20-35% across Contacts, Calendar, Phone, and Notes; cut OOM crashes by 50% via memory optimization
 - Developed Samsung ColorNote (50M+ downloads) with cloud sync; created cross-device transfer using Wi-Fi Direct and NFC
 
 **Awards:** Samsung Innovator Award (2014) • Innovator of the Month (Jul 2014) • Employee of the Year (2013)
@@ -213,33 +224,33 @@ Staff mobile engineer with 14+ years building Android applications at scale for 
 
 | Degree | Institution | Year |
 |---|---|---|
-| **Master of Computer Applications (MCA)** | St. Joseph's College, Tiruchirappalli, India | 2006 – 2009 |
-| **Bachelor of Science (Physics, Mathematics)** | St. Xavier's College, Tirunelveli, India | 2003 – 2006 |
+| **Masters** — Master of Computer Applications (MCA) | St. Joseph's College, Tiruchirappalli, India | 2006 – 2009 |
+| **Bachelors** — Bachelor of Science (Physics, Mathematics) | St. Xavier's College, Tirunelveli, India | 2003 – 2006 |
 
 ---
 
 ## Certifications
 
-**AI Certifications**
+#### AI Certifications
 
-- **Claude Certified Architect – Professional (CCAR-P)** — Anthropic • 2026
-- **Claude Certified Architect – Foundations (CCAR-F)** — Anthropic • 2026
-- **Claude Certified Developer – Foundations (CCDV-F)** — Anthropic • 2026
-- **Claude Certified Associate – Foundations (CCAO-F)** — Anthropic • 2026
+- **Claude Certified Architect - Professional (CCAR-P)** - Anthropic, 2026
+- **Claude Certified Architect - Foundations (CCAR-F)** - Anthropic, 2026
+- **Claude Certified Developer - Foundations (CCDV-F)** - Anthropic, 2026
+- **Claude Certified Associate - Foundations (CCAO-F)** - Anthropic, 2026
 
-**Anthropic Courses Completed**
+#### Anthropic Courses Completed
 
-- Claude Code in Action — Anthropic • 2026
-- Introduction to Subagents — Anthropic • 2026
-- Introduction to Model Context Protocol (MCP) — Anthropic / LinkedIn Learning • 2026
-- Claude 101 — Anthropic • 2026
+- Claude Code in Action - Anthropic, 2026
+- Introduction to Subagents - Anthropic, 2026
+- Introduction to Model Context Protocol (MCP) - Anthropic / LinkedIn Learning, 2026
+- Claude 101 - Anthropic, 2026
 
-**Industry Certifications**
+#### Industry Certifications
 
-- **Certified SAFe® Agilist (SA)** — Scaled Agile, Inc • 2026
-- **Kotlin Android SDK – Certified Security** — Secure Code Warrior • 2021
-- **Functional Programming Principles in Scala** — EPFL • 2017
-- **Sun Certified Java Programmer (SCJP)** — Sun Microsystems • 2009
+- **Certified SAFe Agilist (SA)** - Scaled Agile Inc, 2026
+- **Kotlin Android SDK - Certified Security** - Secure Code Warrior, 2021
+- **Functional Programming Principles in Scala** - EPFL, 2017
+- **Sun Certified Java Programmer (SCJP)** - Sun Microsystems, 2009
 
 ---
 
