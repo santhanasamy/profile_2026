@@ -17,8 +17,7 @@ Applied AI Architect and Staff Mobile Engineer with 14+ years building enterpris
 <span class="chip">Human-in-the-Loop Orchestration</span>
 <span class="chip">Agent Evaluation & Observability</span>
 <span class="chip">Tool-Augmented AI Systems</span>
-<span class="chip">CrewAI</span>
-<span class="chip">LangChain, LangGraph, LangSmith</span>
+<span class="chip">LangChain, LangGraph, CrewAI</span>
 <span class="chip">Guardrails & AI Safety</span>
 <span class="chip">Prompt Engineering & Evaluation</span>
 <span class="chip">On-Device AI/ML</span>
@@ -33,7 +32,7 @@ Applied AI Architect and Staff Mobile Engineer with 14+ years building enterpris
 <span class="chip">Performance Optimization</span>
 <span class="chip">Mobile Security & Compliance</span>
 
-<span class="chip">New Relic & Observability</span>
+<span class="chip">New Relic, LangSmith & Observability</span>
 <span class="chip">CI/CD & DevOps</span>
 
 ---
