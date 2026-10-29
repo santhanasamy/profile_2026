@@ -5,7 +5,7 @@ title: Santhanasamy Arockiyasamy
 
 ## Professional Summary
 
-Applied AI Architect and Staff Mobile Engineer with 14+ years building enterprise-grade mobile applications at scale for fintech, healthcare, and consumer domains. Anthropic Certified — building production-grade agentic workflows, tool-augmented AI systems with MCP server development (FastMCP), multi-agent orchestration with human-in-the-loop patterns, and Claude Agent SDK/API integration that enable teams to adopt the AI agent ecosystem. Led engineering teams delivering apps with 10M–100M+ downloads across Capital One (50M+), Samsung (100M+), and Walgreens (10M+). Deep expertise in Kotlin/Compose, multi-module architecture, on-device AI/ML, and mobile security compliance (PCI-DSS, HIPAA, SOC 2). Designed and shipped Fiserv Connect Pay SDK — a white-label payment SDK adopted by major financial institutions with PCI-DSS Level 2 compliance. Track record of reducing crash rates by 85%, cutting app launch times by 44%, and shipping AI-integrated SDKs adopted by major financial institutions.
+Applied AI Architect and Staff Mobile Engineer with 14+ years building enterprise-grade mobile applications at scale for fintech, healthcare, and consumer domains. Anthropic Certified — building production-grade agentic workflows, tool-augmented AI systems with MCP server development (FastMCP), multi-agent orchestration with human-in-the-loop patterns, and Claude Agent SDK/API integration that enable teams to adopt the AI agent ecosystem. Led engineering teams delivering apps with 10M-100M+ downloads across Capital One (50M+), Samsung (100M+), and Walgreens (10M+). Deep expertise in Kotlin/Compose, multi-module architecture, on-device AI/ML, and mobile security compliance (PCI-DSS, HIPAA, SOC 2). Designed and shipped Fiserv Connect Pay SDK — a white-label payment SDK adopted by major financial institutions with PCI-DSS Level 2 compliance. Track record of reducing crash rates by 85%, cutting app launch times by 44%, and shipping AI-integrated SDKs adopted by major financial institutions.
 
 ---
 
@@ -120,7 +120,7 @@ Applied AI Architect and Staff Mobile Engineer with 14+ years building enterpris
 - Architected plugin-based SDK enabling client customization without source modification; reduced integration time from 6 weeks to 2 weeks
 - Implemented end-to-end encryption and tokenization achieving PCI-DSS Level 2 compliance
 - Built receipt scanning and expense categorization using custom on-device ML models
-- Developed fraud detection algorithms achieving <5% false positive rate
+- Developed fraud detection algorithms achieving less than 5% false positive rate
 - Implemented Server-Driven UI (SDUI) architecture rendering screen layouts and content from backend API responses, enabling dynamic feature updates without app releases
 - Integrated conversational AI assistant for banking queries using LLM APIs
 
@@ -208,7 +208,7 @@ Applied AI Architect and Staff Mobile Engineer with 14+ years building enterpris
 
 **Samsung Core Apps & Innovation**
 
-- Reduced launch times by 20–35% across Contacts, Calendar, Phone, and Notes; cut OOM crashes by 50% via memory optimization
+- Reduced launch times by 20-35% across Contacts, Calendar, Phone, and Notes; cut OOM crashes by 50% via memory optimization
 - Developed Samsung ColorNote (50M+ downloads) with cloud sync; created cross-device transfer using Wi-Fi Direct and NFC
 
 **Awards:** Samsung Innovator Award (2014) • Innovator of the Month (Jul 2014) • Employee of the Year (2013)
@@ -236,33 +236,33 @@ Applied AI Architect and Staff Mobile Engineer with 14+ years building enterpris
 
 | Degree | Institution | Year |
 |---|---|---|
-| **Master of Computer Applications (MCA)** | St. Joseph's College, Tiruchirappalli, India | 2006 – 2009 |
-| **Bachelor of Science (Physics, Mathematics)** | St. Xavier's College, Tirunelveli, India | 2003 – 2006 |
+| **Masters** — Master of Computer Applications (MCA) | St. Joseph's College, Tiruchirappalli, India | 2006 – 2009 |
+| **Bachelors** — Bachelor of Science (Physics, Mathematics) | St. Xavier's College, Tirunelveli, India | 2003 – 2006 |
 
 ---
 
 ## Certifications
 
-**AI Certifications**
+#### AI Certifications
 
-- **Claude Certified Architect – Professional (CCAR-P)** — Anthropic • 2026
-- **Claude Certified Architect – Foundations (CCAR-F)** — Anthropic • 2026
-- **Claude Certified Developer – Foundations (CCDV-F)** — Anthropic • 2026
-- **Claude Certified Associate – Foundations (CCAO-F)** — Anthropic • 2026
+- **Claude Certified Architect - Professional (CCAR-P)** - Anthropic, 2026
+- **Claude Certified Architect - Foundations (CCAR-F)** - Anthropic, 2026
+- **Claude Certified Developer - Foundations (CCDV-F)** - Anthropic, 2026
+- **Claude Certified Associate - Foundations (CCAO-F)** - Anthropic, 2026
 
-**Anthropic Courses Completed**
+#### Anthropic Courses Completed
 
-- Claude Code in Action — Anthropic • 2026
-- Introduction to Subagents — Anthropic • 2026
-- Introduction to Model Context Protocol (MCP) — Anthropic / LinkedIn Learning • 2026
-- Claude 101 — Anthropic • 2026
+- Claude Code in Action - Anthropic, 2026
+- Introduction to Subagents - Anthropic, 2026
+- Introduction to Model Context Protocol (MCP) - Anthropic / LinkedIn Learning, 2026
+- Claude 101 - Anthropic, 2026
 
-**Industry Certifications**
+#### Industry Certifications
 
-- **Certified SAFe® Agilist (SA)** — Scaled Agile, Inc • 2026
-- **Kotlin Android SDK – Certified Security** — Secure Code Warrior • 2021
-- **Functional Programming Principles in Scala** — EPFL • 2017
-- **Sun Certified Java Programmer (SCJP)** — Sun Microsystems • 2009
+- **Certified SAFe Agilist (SA)** - Scaled Agile Inc, 2026
+- **Kotlin Android SDK - Certified Security** - Secure Code Warrior, 2021
+- **Functional Programming Principles in Scala** - EPFL, 2017
+- **Sun Certified Java Programmer (SCJP)** - Sun Microsystems, 2009
 
 ---
 
