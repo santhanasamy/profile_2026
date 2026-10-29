@@ -5,24 +5,34 @@ title: Santhanasamy Arockiyasamy
 
 ## Professional Summary
 
-Staff mobile engineer with 14+ years building Android applications at scale for fintech, healthcare, and consumer domains. Led engineering teams delivering apps with 10M–100M+ downloads across Capital One (50M+), Samsung (100M+), and Walgreens (10M+). Deep expertise in Kotlin/Compose, multi-module architecture, on-device AI/ML, and mobile security compliance (PCI-DSS, HIPAA, SOC 2). Designed and shipped Fiserv Connect Pay SDK — a white-label payment SDK adopted by major financial institutions with PCI-DSS Level 2 compliance. Anthropic Certified AI-Architect — actively building with Gen-AI and agentic systems, designing multi-agent orchestration patterns, MCP server integrations, and AI-augmented engineering workflows. Track record of reducing crash rates by 85%, cutting app launch times by 44%, and shipping SDKs adopted by major financial institutions.
+Applied AI Architect and Staff Mobile Engineer with 14+ years building enterprise-grade mobile applications at scale for fintech, healthcare, and consumer domains. Anthropic Certified — building production-grade agentic workflows, tool-augmented AI systems with MCP server development (FastMCP), multi-agent orchestration with human-in-the-loop patterns, and Claude Agent SDK/API integration that enable teams to adopt the AI agent ecosystem. Led engineering teams delivering apps with 10M–100M+ downloads across Capital One (50M+), Samsung (100M+), and Walgreens (10M+). Deep expertise in Kotlin/Compose, multi-module architecture, on-device AI/ML, and mobile security compliance (PCI-DSS, HIPAA, SOC 2). Designed and shipped Fiserv Connect Pay SDK — a white-label payment SDK adopted by major financial institutions with PCI-DSS Level 2 compliance. Track record of reducing crash rates by 85%, cutting app launch times by 44%, and shipping AI-integrated SDKs adopted by major financial institutions.
 
 ---
 
 ## Core Competencies
 
-<span class="chip">Mobile System Design</span>
+<span class="chip">MCP Server Development (FastMCP)</span>
+<span class="chip">Multi-Agent Orchestration</span>
+<span class="chip">Claude Agent SDK & API</span>
+<span class="chip">Human-in-the-Loop Orchestration</span>
+<span class="chip">Agent Evaluation & Observability</span>
+<span class="chip">Tool-Augmented AI Systems</span>
+<span class="chip">CrewAI</span>
+<span class="chip">LangChain, LangGraph, LangSmith</span>
+<span class="chip">Guardrails & AI Safety</span>
+<span class="chip">Prompt Engineering & Evaluation</span>
+<span class="chip">On-Device AI/ML</span>
+
 <span class="chip">Kotlin / Jetpack Compose</span>
 <span class="chip">KMP & Coroutines</span>
-<span class="chip">iOS / Swift</span>
+<span class="chip">Mobile System Design</span>
 <span class="chip">Multi-Module Architecture</span>
-<span class="chip">On-Device AI/ML</span>
-<span class="chip">Agentic AI & LLM Integration</span>
 <span class="chip">Server-Driven UI (SDUI)</span>
+<span class="chip">iOS / Swift</span>
 <span class="chip">Payment SDK Engineering</span>
 <span class="chip">Performance Optimization</span>
 <span class="chip">Mobile Security & Compliance</span>
-<span class="chip">Claude API & MCP</span>
+
 <span class="chip">New Relic & Observability</span>
 <span class="chip">CI/CD & DevOps</span>
 
@@ -32,11 +42,11 @@ Staff mobile engineer with 14+ years building Android applications at scale for 
 
 | Domain | Technologies |
 |---|---|
-| **Languages** | Kotlin (Expert), Java, Dart, TypeScript |
+| **Languages** | Kotlin (Expert), Java, Dart, TypeScript, Python |
 | **Android** | Jetpack Compose, Coroutines/Flow, KMP, Hilt, Room, Navigation |
 | **Architecture** | MVVM, MVI, Clean Architecture, Multi-Module, Modularization |
-| **AI/ML** | TensorFlow Lite, ML Kit, ONNX, Gemini Nano, LLM Integration, RAG |
-| **Gen-AI & Agents** | Claude API, MCP (Model Context Protocol), Multi-Agent Orchestration, Prompt Engineering, Agentic Workflows |
+| **Gen-AI & Agents** | Claude Agent SDK, Claude API, MCP (FastMCP), Multi-Agent Orchestration, Human-in-the-Loop Patterns, CrewAI, Guardrails AI, Agent Evaluation, RAG, Vercel AI SDK |
+| **On-Device AI/ML** | TensorFlow Lite, ML Kit, ONNX, Gemini Nano, LLM Integration |
 | **Backend / APIs** | REST, GraphQL, gRPC, Firebase, AWS, Azure |
 | **CI/CD & Quality** | GitHub Actions, Jenkins, Fastlane, Gradle (KTS/Catalogs) |
 | **Testing** | JUnit, Mockk, Espresso, Compose Testing, Turbine |
@@ -56,7 +66,19 @@ Staff mobile engineer with 14+ years building Android applications at scale for 
 
 #### Williams-Sonoma Retail Apps — Staff Level Engineer (Contractor)
 
-*Multi-brand retail ecosystem • Platform modernization • Cross-platform strategy*
+*Multi-brand retail ecosystem • Platform modernization • Cross-platform strategy • AI-SDLC adoption*
+
+*AI-SDLC & Agentic AI Adoption*
+
+- Benchmarked AI coding-assistant output across multiple models and prompt strategies, cutting token usage by up to 50% in short sessions with no measurable quality loss in generated Compose code and architecture documentation
+- Optimized AI agent startup context by profiling always-loaded MCP servers against on-demand skills, reducing context overhead from 33% to 22% and improving agent response latency for mobile development workflows
+- Built a self-service pipeline enabling engineers to package reusable skills as Claude Code plugins — automated PRs, CI validation, security checks, and admin approval — plus an internal catalog for team discovery and installation
+- Co-built an AI-powered starter kit that takes engineers from feature idea to scaffolded module in one guided CLI flow, owning packaging, build integration, and automated deployment into the multi-brand codebase
+- Introduced AI-augmented SDLC practices across the mobile team — AI-assisted code reviews, automated test generation for Compose UI flows, and AI-powered crash triage that accelerated root-cause analysis for retail-critical user journeys
+- Championed agentic AI adoption by building automated architecture spike agents and AI-driven feature decomposition workflows, enabling faster technical decisioning for cross-platform migration initiatives
+- Authored the team's Claude Code guidance, plugin authoring guides, and AI-SDLC best practices; published regular internal engineering blog posts on AI-augmented mobile development
+
+*Mobile Platform Engineering*
 
 - Architected and led the Jetpack Compose migration, defining clean architecture boundaries (domain, data, presentation layers) that became the reference implementation adopted across mobile teams
 - Engineered a brownfield React Native integration strategy, migrating feature modules into the existing native Android application while preserving runtime stability and release velocity
@@ -131,12 +153,12 @@ Staff mobile engineer with 14+ years building Android applications at scale for 
 
 *AI-augmented engineering workflows • Multi-agent systems • MCP integrations*
 
-- Designed and built multi-agent orchestration systems using Planner–Executor coordination patterns with context isolation and parallel subagent dispatch
-- Architected 5 specialized AI agents for mobile development workflows: architecture planning, feature building, debugging, test generation, and codebase analysis (spiker)
-- Built custom MCP server integrations for tool-augmented AI workflows, implementing stdio and HTTP transports with structured tool schemas
+- Built custom MCP servers using FastMCP (Python) with stdio and streamable HTTP transports, exposing structured tool schemas for AI-augmented development workflows
+- Designed multi-agent orchestration systems using Planner–Executor coordination patterns with context isolation and parallel subagent dispatch via Claude Agent SDK
+- Architected 5 specialized AI agents for mobile development workflows: architecture planning, feature building, debugging, test generation, and codebase analysis
 - Developed AI-powered React component generator (UIGen) using Claude API with Vercel AI SDK, tool use, and live Babel-compiled preview
-- Applied agentic architecture patterns in production: automated code spike audits, feature planning with AI-assisted decomposition, and AI-driven test coverage analysis
-- Implemented prompt engineering best practices for structured output, evaluation pipelines, and context management with caching optimization
+- Enabled scalable, production-grade generative AI integrations — automated code spike audits, feature planning with AI-assisted decomposition, and AI-driven test coverage analysis
+- Implemented prompt engineering best practices for structured output, evaluation pipelines, and context management with prompt caching optimization
 
 **Engineering Leadership & Mentorship**
 
@@ -251,3 +273,4 @@ Staff mobile engineer with 14+ years building Android applications at scale for 
 - **Samsung ColorNote** — Note-taking app, 50M+ downloads
 - **Fiserv Connect Pay SDK** — Payment SDK, major financial institution clients
 - **Walgreens Mobile** — Retail pharmacy app, 10M+ downloads
+
