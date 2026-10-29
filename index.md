@@ -49,8 +49,9 @@ Applied AI Architect and Staff Mobile Engineer with 14+ years building enterpris
 | **On-Device AI/ML** | TensorFlow Lite, ML Kit, ONNX, Gemini Nano, LLM Integration |
 | **Backend / APIs** | REST, GraphQL, gRPC, Firebase, AWS, Azure |
 | **CI/CD & Quality** | GitHub Actions, Jenkins, Fastlane, Gradle (KTS/Catalogs) |
-| **Testing** | JUnit, Mockk, Espresso, Compose Testing, Turbine |
-| **Observability** | New Relic, Crashlytics, Sentry, Firebase Analytics, Mixpanel |
+| **Testing** | JUnit, Mockk, Espresso, Compose Testing |
+| **Observability** | New Relic, Crashlytics, Sentry, Firebase Analytics |
+| **Streaming** | Kafka, Event-Driven Architecture |
 | **Security** | PCI-DSS, SOC 2, HIPAA, OWASP Mobile Top 10, OAuth 2.0/OIDC |
 | **Security Testing** | MAST, SAST (Fortify), DAST, Penetration Testing, SCA |
 | **Accessibility** | Level Access, WCAG 2.1 Compliance, Accessibility Auditing |
