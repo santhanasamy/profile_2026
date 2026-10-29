@@ -30,9 +30,10 @@ Applied AI Architect and Staff Mobile Engineer with 14+ years building enterpris
 <span class="chip">iOS / Swift</span>
 <span class="chip">Payment SDK Engineering</span>
 <span class="chip">Performance Optimization</span>
-<span class="chip">Mobile Security & Compliance</span>
+<span class="chip">Mobile Security</span>
 
-<span class="chip">New Relic, LangSmith & Observability</span>
+<span class="chip">LangSmith</span>
+<span class="chip">New Relic & Observability</span>
 <span class="chip">CI/CD & DevOps</span>
 
 ---
