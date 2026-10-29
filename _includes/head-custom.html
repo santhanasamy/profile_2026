@@ -30,7 +30,7 @@
 /* ===== PRINT STYLES ===== */
 @media print {
   @page {
-    margin: 0.5in 0.6in;
+    margin: 0.4in 0.55in;
     size: letter;
   }
 
@@ -120,9 +120,9 @@
 
   /* --- Headings: override Slate's h2 bg image and padding --- */
   h2 {
-    font-size: 13pt !important;
-    margin: 12px 0 4px 0 !important;
-    padding: 0 0 2px 0 !important;
+    font-size: 12pt !important;
+    margin: 8px 0 3px 0 !important;
+    padding: 0 0 1px 0 !important;
     border-bottom: 1px solid #999 !important;
     background: none !important;
     background-image: none !important;
@@ -140,7 +140,7 @@
 
   /* --- Paragraphs: override Slate's p { margin: 10px 0 15px 0 } --- */
   p {
-    margin: 3px 0 !important;
+    margin: 2px 0 !important;
     padding: 0 !important;
     font-size: 10pt !important;
     orphans: 3;
@@ -163,7 +163,7 @@
   hr {
     border: none !important;
     border-top: 1px solid #ccc !important;
-    margin: 6px 0 !important;
+    margin: 4px 0 !important;
     padding: 0 !important;
     height: 0 !important;
     background: none !important;
@@ -192,15 +192,16 @@
     vertical-align: top !important;
   }
 
-  /* --- Chips: bordered outlines --- */
+  /* --- Chips: bordered outlines, compact for print --- */
   .chip {
     background: none !important;
     color: #000 !important;
     border: 1px solid #888 !important;
-    padding: 1px 8px !important;
-    margin: 1px 2px !important;
-    font-size: 8.5pt !important;
+    padding: 0px 6px !important;
+    margin: 1px 1px !important;
+    font-size: 8pt !important;
     border-radius: 10px;
+    line-height: 1.5 !important;
   }
 
   /* --- Links: clean, no URL printing --- */
