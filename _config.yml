@@ -4,3 +4,7 @@ plugins:
 
 title: Santhanasamy Arockiyasamy
 description: Staff Engineer | AI-Native / Mobile | Android | React Native | Agentic AI | MCP
+
+exclude:
+  - tools
+  - .preview
