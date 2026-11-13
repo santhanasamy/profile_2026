@@ -1,5 +1,30 @@
 <style>
 /* ===== SCREEN STYLES ===== */
+.role-dates {
+  float: right;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.client {
+  border-left: 3px solid #ccc;
+  padding-left: 14px;
+  margin: 12px 0 16px 4px;
+}
+.client h4 {
+  margin-top: 4px;
+}
 .inner, #main_content, #main_content_wrap .inner {
   max-width: 900px;
 }
@@ -121,7 +146,7 @@
   /* --- Headings: override Slate's h2 bg image and padding --- */
   h2 {
     font-size: 12pt !important;
-    margin: 8px 0 3px 0 !important;
+    margin: 10px 0 4px 0 !important;
     padding: 0 0 1px 0 !important;
     border-bottom: 1px solid #999 !important;
     background: none !important;
@@ -163,7 +188,7 @@
   hr {
     border: none !important;
     border-top: 1px solid #ccc !important;
-    margin: 4px 0 !important;
+    margin: 8px 0 2px 0 !important;
     padding: 0 !important;
     height: 0 !important;
     background: none !important;
@@ -198,7 +223,7 @@
     color: #000 !important;
     border: 1px solid #888 !important;
     padding: 0px 6px !important;
-    margin: 1px 1px !important;
+    margin: 1.5px 1px !important;
     font-size: 7.5pt !important;
     border-radius: 10px;
     line-height: 1.4 !important;
@@ -217,16 +242,17 @@
        In markdown these render as <p><strong>text</strong></p>.
        Must stay with the content that follows them.
   */
-  p > strong:only-child {
+  p:not(.meta) > strong:only-child {
     display: block;
     margin: 6px 0 2px 0;
     font-size: 10pt !important;
   }
 
-  /* --- Force Professional Experience to start on page 2 --- */
-  #main_content > h2:nth-of-type(4) {
-    page-break-before: always !important;
-    break-before: always !important;
+  /* --- Client engagements nested under a primary role --- */
+  .client {
+    border-left: 2px solid #999 !important;
+    padding-left: 8px !important;
+    margin: 6px 0 6px 2px !important;
   }
 
   /* --- PAGE BREAK CONTROLS ---
@@ -257,10 +283,32 @@
     break-before: avoid !important;
   }
 
-  /* Tables stay together */
+  /* Italic context/tagline lines stay with the list that follows */
+  p:has(> em:only-child) {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+  p:has(> em:only-child) + ul {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+  ul > li:first-child {
+    page-break-before: avoid !important;
+    break-before: avoid !important;
+  }
+
+  /* Tables may split between rows (prevents a half-empty page),
+     but a single row never splits; header repeats on the next page */
   table {
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+  }
+  tr {
     page-break-inside: avoid !important;
     break-inside: avoid !important;
+  }
+  thead {
+    display: table-header-group;
   }
 
   /* Italic role/context lines stay with their heading */
@@ -269,6 +317,19 @@
   }
 
   /* Float dates stay right-aligned */
+  /* One font family everywhere (Slate sets its own on headings) */
+  h1, h2, h3, h4, h5, h6,
+  #project_title, #project_tagline, th, .role-dates {
+    font-family: 'Calibri', 'Segoe UI', Arial, sans-serif !important;
+    letter-spacing: normal !important;
+  }
+
+  /* Dates: keep fully inside the right margin (italic overhang was clipped) */
+  .role-dates {
+    padding-right: 3px !important;
+  }
+
+  .role-dates,
   span[style*="float:right"] {
     font-size: 9pt !important;
   }
