@@ -4,3 +4,7 @@ plugins:
 
 title: Santhanasamy Arockiyasamy
 description: Staff Mobile Engineer | Android · Kotlin / Compose | React Native | Mobile Platform & SDK Architecture | Agentic AI
+
+exclude:
+  - tools
+  - .preview
